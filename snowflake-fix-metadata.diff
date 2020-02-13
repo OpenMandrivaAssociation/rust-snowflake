@@ -1,0 +1,13 @@
+--- snowflake-1.3.0/Cargo.toml	2017-05-14T01:12:08+02:00
++++ snowflake-1.3.0/Cargo.toml	2019-02-10T09:14:12.800302+01:00
+@@ -18,8 +18,8 @@
+ 
+ [dev-dependencies]
+ time = "0.1"
+-uuid = { version = "0.5", features = ["v4"] }
+-rand = "0.3"
++uuid = { version = "0.6", features = ["v4"] }
++rand = "0.4"
+ threadpool = "1"
+ 
+ [features]
